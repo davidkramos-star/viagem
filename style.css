@@ -76,3 +76,150 @@ display: block;
  .texto{
     font-size: 95px;
  }
+ body{
+  margin:0;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Seção Why Choose */
+.benefits{
+  padding:60px 10%;
+  text-align:center;
+}
+
+.benefit-items{
+  display:flex;
+  justify-content:space-between;
+  gap:30px;
+  margin-top:40px;
+}
+
+.item{
+  width:22%;
+}
+
+.icon{
+  font-size:40px;
+}
+
+.item h3{
+  margin:15px 0;
+  color:#a96432;
+}
+
+.item p{
+  font-size:14px;
+  color:#555;
+}
+
+
+
+.cab{
+    display: flex;
+    margin-top: 20px;
+   
+}
+.destinations{
+  padding:100px 10%;
+  margin: 100px;
+  display: flex;
+justify-content: start;
+}
+
+.cards{
+  display:flex;
+  gap:25px;
+  align-items: center;
+  display: flex;
+
+}
+
+.card{
+  text-align:center;
+}
+
+.card img{
+  width:120px;
+  height:120px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.card p{
+  margin-top:10px;
+  font-size:14px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 30px;
+}
+
+.tours-section{
+    width: 90%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: bold;
+}
+
+.parte3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.tour-card{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.tour-card img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tour-card h4{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.tour-card p{
+    color: gray;
+    font-size: 25px;
+}
+
+.tour-card span{
+    display: block;
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.tour-card strong{
+    color: #333;
+    font-weight: bold;}
+
+.tours-section{
+display: flex;
+margin-top: 100px;
+
+}
+.img-parte3{
+  width: 40px;
+}
